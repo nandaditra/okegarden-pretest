@@ -72,7 +72,7 @@ const Main = () => {
                                     <p className="font-bold text-lg text-gray font-sans">October 8, 2022</p>
                                 </div>
                                 
-                                <div className="my-7 text-start">
+                                <div className="my-7 text-start text-left">
                                     <h4 className="font-bold text-black text-xl text-serif">Pilih Waktu</h4>
                                     <p className="text-lg text-gray font-sans my-2">Durasi Konsultan 30 Menit</p>
                                 </div>
@@ -106,7 +106,7 @@ const Main = () => {
                                              Nama Lengkap
                                         </label><br/>
                                         <input 
-                                        className="bg-[#f8f8f8] w-full mt-3 rounded-lg border-none focus:ring-2 focus:ring-green"
+                                        className="bg-slate w-full mt-3 rounded-lg border-none focus:ring-2 focus:ring-green"
                                         name="nama-lengkap"
                                         type="text"
                                         placeholder="Yudha Wahyu"
@@ -119,7 +119,7 @@ const Main = () => {
                                             No Hp
                                         </label><br/>
                                         <input 
-                                            className="bg-[#f8f8f8] w-full mt-3 rounded-lg border-none focus:ring-2 focus:ring-green"
+                                            className="bg-slate w-full mt-3 rounded-lg border-none focus:ring-2 focus:ring-green"
                                             name="no-hp"
                                             type="text"
                                             placeholder="+62 852 2324 4747"
@@ -144,7 +144,7 @@ const Main = () => {
                             </div>
                         </div>
                         <hr className="border-neutral"/>
-                        <div className="mx-[5%] my-16">
+                        <div className="mx-16 my-16">
                              <h1 className="text-4xl font-bold text-sans text-black">Informasi Konsultasi Taman</h1>
                              
                              <h3 className="text-black font-bold font-sans text-xl mt-8 mb-3">Lahan Taman</h3>
@@ -219,8 +219,8 @@ const Main = () => {
                                 </ul>        
                              </div>
 
-                             <div className="text-end font-bold">
-                                 <button className="bg-[#f8f8f8]  py-2 px-4 text-green rounded-lg focus:ring-4 focus:ring-dark-200 mr-5">Batal</button>
+                             <div className="text-right font-bold">
+                                 <button className="bg-slate  py-2 px-4 text-green rounded-lg focus:ring-4 focus:ring-dark-200 mr-5">Batal</button>
                                  <button className="bg-green py-2 px-4 text-white rounded-lg focus:ring-4 focus:ring-dark-200">OKE</button>
                              </div>
                         </div>

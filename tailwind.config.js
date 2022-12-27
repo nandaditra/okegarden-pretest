@@ -23,6 +23,7 @@ module.exports = {
         'gray': "#676767",
         'blue': "#1688d2",
         'sky': "#99cbeb",
+        'slate': "#f8f8f8",
         'neutral': "#ebebeb",
         'teal': "#d9e6d8"
       }
